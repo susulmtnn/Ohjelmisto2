@@ -1,0 +1,46 @@
+header {
+    padding-top: 1rem;
+}
+
+.container{
+    border: 10rem;
+    margin: 0 12rem;
+}
+
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+}
+
+h1 {
+    width:65rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li a {
+    width: 10rem;
+    height: 3rem;
+    display: block;
+}
+
+main {
+    margin-top: 6rem;
+}
+
+.product-section{
+    display: flex;
+}
+
+.address {
+    float:left;
+}
+
+#contact {
+    float:left
+    background: greenyellow;
+}
