@@ -1,6 +1,7 @@
 header {
-    padding-top: 1rem;
     position: relative;
+    background-color: purple;
+
 }
 
 .container{
@@ -21,6 +22,7 @@ nav {
 
 h1 {
     flex-grow: 6;
+    padding-left: 1rem;
 }
 
 ul {
@@ -31,31 +33,46 @@ ul {
 }
 
 li a {
-    width: 10rem;
-    height: 3rem;
     display: block;
+    margin: auto;
+    padding: 1rem 2rem;
+    text-decoration: none;
 }
 
-article{
+section{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-main {
-    margin-top: 6rem;
-}
 
-.product-section{
+#product-section{
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.address {
-    float:left;
-    padding: 5rem 10rem;
+.product1, .product2, .product3{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-contact{
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+h4 {
+    display: flex;
+    align-self: flex-start;
 }
 
 #contact {
-    float: inherit;
+    display: flex;
+    flex-direction: row;
     background: greenyellow;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem;
 }
