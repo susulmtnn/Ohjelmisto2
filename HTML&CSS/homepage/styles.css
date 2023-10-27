@@ -1,5 +1,6 @@
 header {
     padding-top: 1rem;
+    position: relative;
 }
 
 .container{
@@ -7,25 +8,38 @@ header {
     margin: 0 12rem;
 }
 
+
 nav {
     display: flex;
     position: fixed;
     justify-content: space-between;
+    background-color: purple;
+    width: 80%;
+    align-items: center;
+
 }
 
 h1 {
-    width:65rem;
+    flex-grow: 6;
 }
 
 ul {
     display: flex;
     list-style: none;
+    align-content: center;
+    text-align: center;
 }
 
 li a {
     width: 10rem;
     height: 3rem;
     display: block;
+}
+
+article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 main {
@@ -38,9 +52,10 @@ main {
 
 .address {
     float:left;
+    padding: 5rem 10rem;
 }
 
 #contact {
-    float:left
+    float: inherit;
     background: greenyellow;
 }
