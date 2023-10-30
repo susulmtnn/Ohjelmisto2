@@ -141,6 +141,10 @@ article{
     background-color: #d5def5;
     margin: 10px;
     padding: 1rem 0.5rem 0.5rem;
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 50rem;
+    flex-wrap: wrap;
 }
 
 .light-text{
@@ -178,15 +182,15 @@ h4 {
 
 #last-image {
     box-sizing: border-box;
+    width: 30rem;
 }
 
 image{
     width: 100%;
-    height: auto;
 }
 
 img{
-    height: 100%;
+
     width: 100%;
 }
 
