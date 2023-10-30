@@ -35,11 +35,12 @@ nav {
     width: 80%;
     align-items: center;
     box-sizing: border-box;
+    flex-wrap: wrap;
+    min-width: 1rem;
 
 }
 
 h1 {
-    flex-grow: 6;
     padding-left: 1rem;
     margin: 0;
     color: #d5def5;
@@ -59,6 +60,7 @@ ul {
     align-content: center;
     text-align: center;
     margin: 0;
+    flex-shrink: 1;
 }
 
 li a {
@@ -89,6 +91,8 @@ h2{
     color: #430f58;
     font-size: 46px;
     font-weight: 900;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
  h3 {
@@ -109,6 +113,7 @@ h2{
 
 p {
     color:#430f58;
+    padding: 10px;
 }
 
 .light-text{
