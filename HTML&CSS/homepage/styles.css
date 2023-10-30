@@ -9,6 +9,8 @@ margin: 0;
     width: 100%;
     box-sizing: border-box;
     background-color: #8594e4;
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
 }
 
 .container{
@@ -83,12 +85,36 @@ section{
     text-align: center;
 }
 
-h2, h3 {
+h2{
     color: #430f58;
+    font-size: 46px;
+    font-weight: 900;
 }
+
+ h3 {
+    color: #430f58;
+    text-align: left;
+    display: flex;
+    align-self: flex-start;
+}
+
+ img{
+     margin-top: 1rem;
+     margin-bottom: 1rem ;
+ }
+
+ #top{
+     font-size: 14px;
+ }
 
 p {
     color:#430f58;
+}
+
+.light-text{
+     text-align: left;
+    display: flex;
+    align-self: flex-start;
 }
 
 
@@ -108,10 +134,17 @@ article{
     padding-bottom: 5rem;
 }
 
-.product1, .product2, .product3{
+.product{
     align-items: center;
     display: flex;
     flex-direction: column;
+    background-color: #d5def5;
+    margin: 10px;
+    padding: 1rem 0.5rem 0.5rem;
+}
+
+.light-text{
+    font-weight: 400;
 }
 
 .left-contact{
@@ -124,6 +157,7 @@ h4 {
     align-self: flex-start;
     margin:0;
     color:#430f58;
+    font-size: 25px;
 }
 
 #contact {
@@ -135,13 +169,27 @@ h4 {
     flex-shrink: 1;
     flex-wrap: wrap;
     text-align: left;
+    box-sizing: border-box;
+    }
+
+.address{
+    font-size: 14px;
 }
 
 #last-image {
-    padding: 1rem;
+    box-sizing: border-box;
 }
 
 image{
     width: 100%;
     height: auto;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+span{
+    font-weight: 900;
 }
