@@ -5,12 +5,13 @@ header {
 }
 
 body {
-margin: 0;
+    margin: 0;
     width: 100%;
     box-sizing: border-box;
     background-color: #8594e4;
     font-family: 'Playfair Display', serif;
     font-weight: 500;
+    min-width: fit-content;
 }
 
 .container{
@@ -24,7 +25,8 @@ margin: 0;
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-color: #8594e4;
+    background-color: #f590f3;
+    min-width: fit-content;
 }
 
 nav {
@@ -36,7 +38,6 @@ nav {
     align-items: center;
     box-sizing: border-box;
     flex-wrap: wrap;
-    min-width: 1rem;
 
 }
 
@@ -145,7 +146,7 @@ article{
     flex-direction: column;
     background-color: #d5def5;
     margin: 10px;
-    padding: 1rem 0.5rem 0.5rem;
+    padding: 1rem 1rem 0.5rem;
     box-sizing: border-box;
     width: 33.33%;
     height: 60rem;
@@ -188,6 +189,7 @@ h4 {
 #last-image {
     box-sizing: border-box;
     width: 30rem;
+    display: flex;
 }
 
 image{
