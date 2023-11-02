@@ -114,7 +114,6 @@ h2{
 
 p {
     color:#430f58;
-    padding: 10px;
 }
 
 .light-text{
@@ -149,8 +148,9 @@ article{
     padding: 1rem 1rem 0.5rem;
     box-sizing: border-box;
     width: 33.33%;
-    height: 60rem;
+    height: fit-content;
     flex-wrap: wrap;
+
 }
 
 .light-text{
@@ -187,8 +187,7 @@ h4 {
 }
 
 iframe {
-    width: 30rem;
-    padding-top: 2em;
+    padding-top: 2rem;
 }
 
 image{
