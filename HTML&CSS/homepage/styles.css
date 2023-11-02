@@ -175,7 +175,7 @@ h4 {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 5rem;
+    padding: 2rem;
     flex-shrink: 1;
     flex-wrap: wrap;
     text-align: left;
@@ -186,10 +186,9 @@ h4 {
     font-size: 14px;
 }
 
-#last-image {
-    box-sizing: border-box;
+iframe {
     width: 30rem;
-    display: flex;
+    padding-top: 2em;
 }
 
 image{
