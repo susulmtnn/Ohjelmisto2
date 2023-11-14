@@ -9,7 +9,7 @@ let sum = 0;
 let roll;
 
 for (let i = diceNum; i >0; i--) {
-  roll = (parseInt(Math.random() * (7 - 1) + 1));
+  roll = (parseInt(Math.floor(Math.random() * (7 - 1) + 1)));
   console.log(roll);
   sum = sum + roll;
 }
