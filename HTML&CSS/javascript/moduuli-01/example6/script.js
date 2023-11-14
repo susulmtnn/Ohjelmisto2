@@ -11,10 +11,10 @@ if (result) {
     selectedSlot.innerHTML = `Sqrt is ${finalsqrt}`;
   }
    else{
-    selectedSlot.innerHTML = `Sqrt cannot be calculated`;
+    selectedSlot.innerHTML = `The square root of a negative number is not defined`;
   }
 
 }
 else {
-  selectedSlot.innerHTML = 'Sqrt not calculated'
+  selectedSlot.innerHTML = 'Sqrt not calculated';
 }
