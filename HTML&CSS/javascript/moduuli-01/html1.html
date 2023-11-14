@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js" defer> </script>
+</head>
+<body>
+    <h1>
+        Tämä on jokin otsikko
+    </h1>
+    <div id="iamdiv">
+        Moi olen divi
+    </div>
+<script>
+    'use.strict';
+    console.log("Moro Maailma Bodyn sisältä!");
+    //alert("Terve olen alertti");
+    //prompt("Terve olen prompti");
+    const nimi = "Suvi";
+    console.log(nimi);
+    //string literal = merkkijono
+    const merkkijono= 'Nimesi on ' + nimi;
+    console.log(merkkijono);
+    //template literal
+    const muotoiltu = `Kiva tavata ${nimi}`;
+    console.log(muotoiltu);
+    //var -älä käytä jos ei ole pakko
+    let teacher = "Ulla";
+    let teacher_surname = "Söderlöf";
+    const taulukko = [0,1,2,3,4,5];
+    console.log(taulukko);
+    console.log(taulukko[0]);
+    const element = document.querySelector('#iamdiv');
+    element.innerHTML = `Hei ${nimi}`;
+    element.style.color = "red";
+
+    //let muuttujan tyyppiä voi vaihtaa lennossa:
+    let nameAgain = "Suvi2";
+
+    console.log(typeof nameAgain, nameAgain);
+    nameAgain = 1;
+    console.log(typeof nameAgain, nameAgain);
+
+    const ageStr = 13;
+    const ika = ageStr.toString();
+    console.log(typeof ika, ika);
+
+</script>
+
+</body>
+</html>
