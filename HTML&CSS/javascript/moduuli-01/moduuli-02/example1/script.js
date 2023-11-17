@@ -10,7 +10,7 @@ Do not use array.reverse() function.
 
 let userInput = [];
 
-userInput = prompt("Please give 5 numbers")
+userInput = prompt("Please give 5 numbers");
 
 let newArray = [];
 
