@@ -21,9 +21,11 @@ const selectedSlot = document.querySelector('.slot');
   }
   let result = diceRoll()
   while (result !== 6){
-    result = diceRoll()
     const listElement = document.createElement('li');
     selectedSlot.appendChild(listElement);
     listElement.innerHTML = result;
+    result = diceRoll()
   }
-
+ const listElement = document.createElement('li');
+  selectedSlot.appendChild(listElement);
+  listElement.innerHTML = result;
