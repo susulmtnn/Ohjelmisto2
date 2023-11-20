@@ -10,15 +10,15 @@ const selectedList = document.querySelector("#target");
 
 const createdElement = document.createElement('li');
 
-createdElement.textContent = "First item";
+createdElement.innerHTML = 'First item';
 
 const createdElement2 = document.createElement('li');
 
-createdElement2.textContent = "Second item";
+createdElement2.innerHTML = 'Second item';
 
 const createdElement3 = document.createElement('li');
 
-createdElement3.textContent = "Third item";
+createdElement3.innerHTML = 'Third item';
 
 selectedList.appendChild(createdElement);
 
