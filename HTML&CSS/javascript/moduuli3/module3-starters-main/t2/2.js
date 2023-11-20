@@ -4,6 +4,8 @@ Add the following HTML code to the element with id="target"
 <li>First item</li>
 <li>Second item</li>
 <li>Third item</li>
+
+Add class my-item to the second list item
  */
 
 
@@ -26,3 +28,7 @@ selectedList.appendChild(createdElement);
 selectedList.appendChild(createdElement2);
 
 selectedList.appendChild(createdElement3);
+
+const selectedItem = document.querySelector('.createdElement2');
+
+createdElement2.classList.add("my-item");
