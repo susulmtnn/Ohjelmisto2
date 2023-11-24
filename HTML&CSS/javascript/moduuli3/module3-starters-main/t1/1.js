@@ -8,21 +8,4 @@ Add the following HTML code to the element with id="target"
 
 const selectedList = document.querySelector("#target");
 
-const createdElement = document.createElement('li');
-
-createdElement.innerHTML = 'First item';
-
-const createdElement2 = document.createElement('li');
-
-createdElement2.innerHTML = 'Second item';
-
-const createdElement3 = document.createElement('li');
-
-createdElement3.innerHTML = 'Third item';
-
-selectedList.appendChild(createdElement);
-
-selectedList.appendChild(createdElement2);
-
-selectedList.appendChild(createdElement3);
-
+document.querySelector("#target").innerHTML = '<li>First item</li><li>Second item</li><li>Third item</li>';
