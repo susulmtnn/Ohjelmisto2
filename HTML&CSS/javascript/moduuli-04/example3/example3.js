@@ -92,7 +92,10 @@ async function printName(response){
 
   }
   catch{
-    console.log("error in name")
+    const selectedBody = document.querySelector('body');
+    const createdDiv2 = document.createElement('div');
+    createdDiv2.innerHTML = error.message;
+    selectedBody.appendChild(createdDiv2);
   }
 }
 
@@ -119,6 +122,12 @@ async function doQuery(event){
   }
   try{
   const response= await getQuery(query);
+  if (response.length===0){
+     const selectedBody = document.querySelector('body');
+    const createdDiv2 = document.createElement('#result');
+    createdDiv2.innerHTML = "Program name not found";
+    selectedBody.appendChild(createdDiv2);
+  }
   console.log(response)
   console.log("success");
   const selectedBody = document.querySelector('body');
